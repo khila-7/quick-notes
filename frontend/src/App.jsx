@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://quick-notes-yt69.onrender.com";
 
 function App() {
   const [notes, setNotes] = useState([]);
